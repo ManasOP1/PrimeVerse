@@ -111,7 +111,8 @@ const Testimonials = () => {
                                                 <div className={`${testimonial.color} rounded-2xl sm:rounded-3xl p-4 sm:p-6 relative transform hover:scale-105 smooth-transition`}>
                                                     <img
                                                         src={testimonial.image}
-                                                        alt={testimonial.name}
+                                                        alt={`${testimonial.name}, ${testimonial.position} at ${testimonial.company} - PrimeVerse Client Testimonial`}
+                                                        loading="lazy"
                                                         className="w-24 h-24 sm:w-32 sm:h-32 rounded-xl sm:rounded-2xl object-cover"
                                                     />
                                                     {/* Decorative circle */}

@@ -64,6 +64,7 @@ const Contact = () => {
             content: 'infoprimeverse@gmail.com',
             link: 'mailto:infoprimeverse@gmail.com',
             color: 'bg-yellow',
+            ariaLabel: 'Email PrimeVerse Digital Solutions Agency',
         },
         {
             icon: <FaPhone />,
@@ -71,13 +72,15 @@ const Contact = () => {
             content: '+91 7058615811',
             link: 'tel:+917058615811',
             color: 'bg-cyan',
+            ariaLabel: 'Call PrimeVerse Digital Solutions Agency',
         },
         {
             icon: <FaMapMarkerAlt />,
             title: 'Visit Us',
             content: 'Shivam Greens, Mumbai, Maharashtra',
-            link: '#',
+            link: 'https://maps.google.com/?q=Shivam+Greens+Mumbai+Maharashtra',
             color: 'bg-secondary',
+            ariaLabel: 'PrimeVerse office location in Mumbai',
         },
     ];
 
@@ -121,6 +124,7 @@ const Contact = () => {
                                 <a
                                     key={index}
                                     href={info.link}
+                                    aria-label={info.ariaLabel || info.title}
                                     className="flex items-center gap-3 sm:gap-4 bg-light rounded-xl sm:rounded-2xl p-4 sm:p-6 card-hover group"
                                     style={{ animationDelay: `${index * 0.1}s` }}
                                 >

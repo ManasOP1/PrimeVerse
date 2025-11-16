@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
-                    <a href="#home" className="text-2xl sm:text-3xl font-bold font-heading group smooth-transition">
+                    <a href="#home" aria-label="PrimeVerse - Digital Solutions Agency Home" className="text-2xl sm:text-3xl font-bold font-heading group smooth-transition">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-accent to-purple group-hover:from-purple group-hover:via-secondary group-hover:to-accent smooth-transition">PrimeVerse</span>
                     </a>
 

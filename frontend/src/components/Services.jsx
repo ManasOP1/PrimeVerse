@@ -50,10 +50,13 @@ const Services = () => {
                         WHAT WE DO
                     </div>
                     <h2 className="text-4xl md:text-6xl font-extrabold text-dark mb-4 font-heading">
-                        Services we can
+                        Digital Solutions Services in Mumbai
                         <br />
-                        help you with
+                        <span className="text-3xl md:text-5xl">Website Development, Design & AI Automation</span>
                     </h2>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
+                        Professional website development, creative design, video production, and AI automation services for businesses in Mumbai, Maharashtra and across India.
+                    </p>
                 </div>
 
                 {/* Services Grid */}

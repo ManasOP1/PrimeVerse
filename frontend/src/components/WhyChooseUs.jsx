@@ -125,9 +125,9 @@ const WhyChooseUs = () => {
                         <div className="flex-shrink-0 w-full md:w-auto">
                             <div className="flex items-center justify-center md:justify-start gap-3 sm:gap-4">
                                 <div className="flex -space-x-2 sm:-space-x-3">
-                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team Member 1" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
-                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Team Member 2" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Team Member 3" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
+                                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="PrimeVerse expert team member - Digital solutions professional" loading="lazy" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="PrimeVerse expert team member - Web development specialist" loading="lazy" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
+                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="PrimeVerse expert team member - Creative design professional" loading="lazy" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-dark" />
                                 </div>
                                 <div className="text-left">
                                     <p className="text-white font-bold text-sm sm:text-base">Expert Support Team</p>

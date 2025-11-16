@@ -50,7 +50,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed px-4">
-                        Transform your ideas into powerful digital experiences through custom websites, compelling creative content, professional video production, and intelligent AI automation tailored for business growth.
+                        PrimeVerse is a leading digital solutions agency in Mumbai, Maharashtra, specializing in professional website development, creative design services, video production, and AI automation. Transform your business with custom digital solutions designed for growth and success.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">

@@ -118,7 +118,8 @@ const Portfolio = () => {
                             <div className="h-64 sm:h-80 relative overflow-hidden">
                                 <img
                                     src={project.image}
-                                    alt={project.title}
+                                    alt={`${project.title} - ${project.role} project by PrimeVerse Digital Solutions Agency`}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 smooth-transition"
                                 />
                                 {/* Overlay */}
