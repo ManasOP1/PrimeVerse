@@ -1,3 +1,5 @@
+# SPA redirect - redirect all routes to index.html EXCEPT static files
+# Netlify processes redirects in order, so specific routes must come first
 [[redirects]]
   from = "/*"
   to = "/index.html"
